@@ -1,0 +1,78 @@
+.body{
+    background-color:#FFFFFF;
+    color: #757575;
+    
+}
+/* зняв декораію з ul */
+.list{
+    list-style: none;
+    }
+
+/*  nav header  */
+
+.site-title .link{
+    color: black;
+}
+.email{
+    color:#2196F3 ;
+}
+.tel{
+    color:  #757575;
+}
+
+.site-title .link:hover, 
+.site-title .link:focus{
+color: #2196F3;
+}
+
+/* section 1 */
+.section-titel1{
+    color:red;
+}
+
+/* section */
+
+.section-title{
+    color: black;}
+
+    /* section 2 */
+.section-titl2 a:hover{
+    color: #2196F3;
+
+}    
+/* section 3 */
+.three{
+    background: rgba(47, 48, 58, 0.8);
+border-radius: 0px 0px 4px 4px;
+border-color:#2196F3 ;
+color: white;
+}
+
+/* section 4 */
+.section-titl4 a:hover, 
+.section-titl4 a:focus{
+    color:#2196F3 ;
+}
+.section4{
+    background-color: #F5F4FA;
+}
+/* section 5 */
+
+.section-titl5 a  :hover{
+color: #2196F3;
+}
+/* footer */
+
+.web{
+    color:#2196F3 ;
+}
+.footer{
+    background-color: #2F303A;
+}
+.footer-title, .adres {
+    color: white;
+}
+.adres-title{
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
