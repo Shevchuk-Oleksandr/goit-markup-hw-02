@@ -54,3 +54,45 @@
     font-size: 16px;
     border: 1px solid black
 }
+.section-title{
+color: black;
+}
+.link:hover,
+.link:focus{
+    color:#2196F3 ;
+
+}
+/*  What are we doing */
+
+.what{
+    background-color: rgba(47, 48, 58, 0.8);
+    color: white;
+    border-radius: 0px 0px 4px 4px;
+}
+/* team */
+.team{
+    background-color: #F5F4FA;
+}
+/* footer */
+.adres{
+    color: white;
+}
+.footer{
+    background-color: #2F303A;
+}
+.footer-title{
+    color: white;
+}
+.web{
+   color:  #2196F3;
+   font-weight: bold;
+   font-size: 22px;
+
+}
+.adres-title{
+    color:  rgba(255, 255, 255, 0.6);
+    
+}
+.white{
+    color: white;
+}
