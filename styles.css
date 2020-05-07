@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+.body{
+    background-color:#FFFFFF;
+    color: #757575;
+    }
+
+    /* section hat */
+
+    .section-head{
+        color: #212121;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .web-head{
+        color: #2196F3;}
+    
+    .web-title .link {
+    color: #212121;
+}
+.web-title .link:hover,
+.web-title .link:focus{
+    color: #2196F3;
+}
+
+.info-title a{
+    color: #757575;
+
+} 
+.info-title a:hover,
+.info-title a:focus{
+    color:#2196F3 ;
+}
+.list{
+    list-style: none;
+}
+
+/* section 0ne */
+
+.section-one{
+    background-color: gray;
+    color: white;
+}
+.button{
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    font-size: 16px;
+    border: 1px solid black
+}
