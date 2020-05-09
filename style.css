@@ -11,7 +11,7 @@
 body {
   background-color: var(--begraund-color);
   color: var(--primary-text-color);
-  font-family: Roboto, Sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
 }
 
@@ -102,7 +102,7 @@ body {
 
 /*  What are we doing */
 
-.what-doing {
+.list-section {
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--begraund-color);
   text-decoration: none;
@@ -110,7 +110,7 @@ body {
   line-height: 1.1;
 }
 
-.what-we {
+.caption {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1;
@@ -128,7 +128,7 @@ body {
   line-height: 1.2;
 }
 
-.name {
+.name-section {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
