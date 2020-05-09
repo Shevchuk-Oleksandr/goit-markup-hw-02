@@ -11,7 +11,7 @@
 body {
   background-color: var(--begraund-color);
   color: var(--primary-text-color);
-  font-family: roboto;
+  font-family: Roboto, Sans-serif;
   font-style: normal;
 }
 
@@ -106,6 +106,8 @@ body {
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--begraund-color);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
 .what-we {
@@ -177,19 +179,69 @@ body {
 
 /* Portfolio html page ********************************************************************************** */
 
-.portfolio-button {
+.Portfolio-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
+  padding-bottom: 50px;
+}
+
+.marceting {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.design {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.Applications {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.web-site {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.ol {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .decoration {
   text-decoration: none;
 }
 
-.nav-portfolio:hover,
-.nav-portfolio:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: var(--begraund-color);
   background-color: var(--akcent-color);
 }

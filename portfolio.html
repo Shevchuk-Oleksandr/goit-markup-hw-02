@@ -1,5 +1,5 @@
 <!DOCTYPE >
-<html lang="ru">
+<html lang="кг">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,6 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
-
   <body class="body">
     <!-- website head -->
     <header>
@@ -35,13 +34,33 @@
     </header>
     <main>
       <!-- button -->
-      <section class="portfolio-button">
-        <button type="button" class="nav-portfolio">Все</button>
-        <button type="button" class="nav-portfolio">Веб-сайты</button>
-        <button type="button" class="nav-portfolio">Приложения</button>
-        <button type="button" class="nav-portfolio">Дизайн</button>
-        <button type="button" class="nav-portfolio">Маркетинг</button>
-      </section>
+      <div class="Portfolio-button">
+        <ul class="list">
+          <li>
+            <button type="button" class="button-portfolio ol">Все</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio web-site">
+              Веб-сайты
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio Applications">
+              Приложения
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio design">
+              Дизайн
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio marceting">
+              Маркетинг
+            </button>
+          </li>
+        </ul>
+      </div>
       <!-- portfolio  -->
       <section>
         <ul>
@@ -158,11 +177,9 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <h3>
-        <a href="" class="footer-logo"
-          ><span class="web-logo"> Web</span> Studio</a
-        >
-      </h3>
+      <a href="" class="footer-logo"
+        ><span class="web-logo"> Web</span> Studio</a
+      >
       <address>
         <p class="adres text">г. Киев, пр-т Леси Украинки, 26</p>
         <p><a href="" class="adres-title link">info@example.com</a></p>
@@ -192,7 +209,7 @@
       <p class="join-in text">подписаться на рассылку</p>
       <div>
         <input name="E-mail" type="text" value="E-mail" />
-        <a href="" class="button">Подписаться</a>
+        <button class="button">Подписаться</button>
       </div>
       <p class="adres-title">2020 | Developed by GoIT Students</p>
     </footer>
