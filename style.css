@@ -58,6 +58,10 @@ body {
   list-style: none;
 }
 
+.menu__li.active a {
+  color: var(--akcent-color);
+}
+
 /* section 0ne */
 
 .section-one {
