@@ -157,7 +157,7 @@ body {
   text-decoration: none;
   font-family: Raleway;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.2;
 }
 
@@ -195,6 +195,8 @@ body {
   top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .design {
@@ -205,6 +207,8 @@ body {
   top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .Applications {
@@ -215,6 +219,8 @@ body {
   top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .web-site {
@@ -225,6 +231,8 @@ body {
   top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .all {
@@ -235,6 +243,8 @@ body {
   top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .decoration {
